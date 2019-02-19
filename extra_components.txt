@@ -1,0 +1,122 @@
+@*<div id="pricing" class="section block-light align-c">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="col-inner">
+										<div class="section-heading">
+											<h5>Pricing Table Section</h5>
+											<h2>Free And Business Plan</h2>
+											<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+										</div>
+										<div class="section-content m-t-60-sm-min">
+											<div class="row">
+												<div class="col-xs-12 col-sm-4">
+													<div class="pricing-table m-t-0-xs-max">
+														<div class="pricing-table-header block-invert">
+															<h5 class="pricing-table-caption">Checkmark pricing table</h5>
+															<h2 class="pricing-table-title">FREE</h2>
+														</div>
+														<div class="pricing-table-content block-light">
+															<ul class="pricing-table-list">
+																<li><i class="fa fa-check"></i> Up to 25 users</li>
+																<li><i class="fa fa-check"></i>500 messages</li>
+																<li><i class="fa fa-check"></i>Normal options</li>
+																<li><i class="fa fa-check"></i>Phone support</li>
+															</ul>
+														</div>
+														<div class="pricing-table-footer block-light">
+															<a class="btn btn-primary" href="#download">Download</a>
+														</div>
+													</div> <!-- .pricing-table -->
+												</div>
+												<div class="col-xs-12 col-sm-4">
+													<div class="pricing-table">
+														<div class="pricing-table-header block-primary">
+															<span class="pricing-table-badge">
+																<i class="fa fa-star"></i>
+															</span>
+															<h5 class="pricing-table-caption">With badge</h5>
+															<h2 class="pricing-table-title"><span>$</span>45<span>/ mo.</span></h2>
+														</div>
+														<div class="pricing-table-content block-light">
+															<ul class="pricing-table-list">
+																<li><i class="fa fa-check"></i> Up to 150 users</li>
+																<li><i class="fa fa-check"></i> 2000 messages</li>
+																<li><i class="fa fa-check"></i> Advanced options</li>
+																<li><i class="fa fa-check"></i> Phone support</li>
+															</ul>
+														</div>
+														<div class="pricing-table-footer block-light">
+															<a class="btn btn-primary" href="#download">Download</a>
+														</div>
+													</div> <!-- .pricing-table -->
+												</div>
+												<div class="col-xs-12 col-sm-4">
+													<div class="pricing-table">
+														<div class="pricing-table-header block-pink">
+															<h5 class="pricing-table-caption">Icon pricing table</h5>
+															<h2 class="pricing-table-title"><span>$</span>75<span>/ mo.</span></h2>
+														</div>
+														<div class="pricing-table-content block-light">
+															<ul class="pricing-table-list">
+																<li><i class="fa fa-user-plus"></i> Up to 500 users</li>
+																<li><i class="fa fa-envelope"></i> <span class="color-pink">Unlimited</span> messages</li>
+																<li><i class="fa fa-cog"></i> Advanced options</li>
+																<li><i class="fa fa-support"></i> Phone support</li>
+															</ul>
+														</div>
+														<div class="pricing-table-footer block-light">
+															<a class="btn btn-primary" href="#download">Download</a>
+														</div>
+													</div> <!-- .pricing-table -->
+												</div>
+											</div>
+										</div> <!-- .section-content -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- #pricing -->*@
+
+					@*<div id="download" class="section block-primary align-c">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="col-inner">
+										<div class="section-heading">
+											<h5>Download Available</h5>
+											<h2>Get It Right Now!</h2>
+											<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+										</div>
+										<div class="section-content">
+											<a class="btn btn-pink m-y-5"><i class="fa fa-android"></i>Google Play</a>
+											<a class="btn btn-warning m-y"><i class="fa fa-apple"></i>App Store</a>
+										</div> <!-- .section-content -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- #download -->*@
+
+<div class="col-sm-6 col-md-offset-1 m-t-60-xs-max">
+						<div class="col-inner">
+							<form class="_default" id="contactForm" novalidate="novalidate">
+								<div class="form-group required">
+									<label class="form-label" for="contactName">Your name</label>
+									<input class="form-control" id="contactName" type="text" name="name">
+								</div>
+								<div class="form-group required">
+									<label class="form-label" for="contactEmail">Email address</label>
+									<input class="form-control" id="contactEmail" type="text" name="email">
+								</div>
+								<div class="form-group required">
+									<label class="form-label" for="contactMessage">Message</label>
+									<textarea class="form-control" id="contactMessage" rows="4" name="message"></textarea>
+								</div>
+								<div class="btn-wrap">
+									<button type="submit" class="btn btn-primary btn-block">Send Message</button>
+								</div>
+								<div class="form-notify"></div>
+							</form> <!-- #contactForm -->
+						</div>
+					</div>
